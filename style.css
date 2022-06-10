@@ -60,3 +60,9 @@ main {
 .movie img {
   width: 100%;
 }
+
+.movie-info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+}
