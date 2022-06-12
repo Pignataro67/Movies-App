@@ -85,3 +85,7 @@ main {
 .movie-info span.green {
   color: lightgreen;
 }
+
+.movie-info span.orange {
+  color: orange;
+}
