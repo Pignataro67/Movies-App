@@ -82,3 +82,6 @@ main {
   font-weight: bold;
 }
 
+.movie-info span.green {
+  color: lightgreen;
+}
