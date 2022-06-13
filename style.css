@@ -89,3 +89,10 @@ main {
 .movie-info span.orange {
   color: orange;
 }
+
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+}
