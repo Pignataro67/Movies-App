@@ -5,3 +5,18 @@ const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c
 const main = document.getElementById('main')
 const form = document.getElementById('form')
 const search = document.getElementById('search')
+
+
+function showMovies(movies) {
+  main.innerHTML = ''
+
+  movies.forEach((movie) => {
+    const { title, poster_path, vote_average, overview } = movie
+
+    const movieEl = document.createElement('div')
+    movieEl.classList.add('movie')
+
+        
+    main.appendChild(movieEl)
+  })
+}
