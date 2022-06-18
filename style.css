@@ -20,6 +20,11 @@ body {
   margin: 0;
 }
 
+.container {
+  text-align: center;
+}
+
+
 header {
   padding: 1rem;
   display: flex;
