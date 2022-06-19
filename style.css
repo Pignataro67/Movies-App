@@ -37,6 +37,9 @@ body {
   content: '';
   background-color: var(--line-border-empty);
   position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 header {
